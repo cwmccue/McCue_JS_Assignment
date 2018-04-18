@@ -1,0 +1,12 @@
+﻿html, body, #viewDiv {
+    height:100%;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    font-size:12px;
+}
+
+#viewDiv {
+    background-color:cadetblue;
+    color:darksalmon;
+}
