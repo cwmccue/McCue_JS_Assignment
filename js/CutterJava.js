@@ -75,7 +75,7 @@
     };
 
     hwyRenderer.legendOptions = {
-        title: "YOOOO DUUUDDEE"
+        title: "Legend"
     };
 
 	var template = { // autocasts as new PopupTemplate()
@@ -109,7 +109,7 @@
         sources:[{
             locator: new Locator({ url: "//geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer" }),
     singleLineFieldName: "SingleLine",
-    name: "Custom Geocoding Service BITCH",
+    name: "Custom Geocoding Service",
     localSearchOptions: {
         minScale: 300000,
         distance: 50000
@@ -125,7 +125,7 @@
     displayField: "ROUTE_NUM",
     exactMatch: false,
     outFields: ["*"],
-    name: "My Custom Search biiattchhh",
+    name: "My Custom Search",
     placeholder: "example: C18",
     maxResults: 6,
     maxSuggestions: 6,
